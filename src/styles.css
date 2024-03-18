@@ -8,3 +8,23 @@ body {
     margin: 0;
     font-family: "Playfair Display", serif;
 }
+
+button {
+    padding: 1rem;
+    border: 1px solid white;
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.gradient {
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, rgba(230,164,64,1) 0%, rgba(148,18,187,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
