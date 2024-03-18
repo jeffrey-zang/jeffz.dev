@@ -36,9 +36,9 @@ const App = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div>
-      <div className="flex bg-neutral-950 text-white">
-        <div className="flex w-1/2 flex-col justify-center px-8 opacity-80 grayscale transition-all hover:opacity-100 hover:grayscale-0">
+    <div className='bg-black'>
+      <div className="max-w-[80rem] mx-auto flex bg-neutral-950 text-white flex-col md:flex-row">
+        <div className="flex w-full md:w-1/2 flex-col justify-center p-8 opacity-80 md:grayscale transition-all hover:opacity-100 hover:grayscale-0">
           <h1 className="text-4xl font-bold">
             This is <span className="text-red-400">Jeffrey</span>.
           </h1>
@@ -117,7 +117,7 @@ const App = () => {
         <img
           src={me}
           alt="me"
-          className="h-screen w-1/2 object-cover opacity-80 grayscale transition-all hover:opacity-100 hover:grayscale-0"
+          className="h-screen w-full md:w-1/2 object-cover opacity-80 md:grayscale transition-all hover:opacity-100 hover:grayscale-0"
         />
       </div>
       <div className={`${(open) ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"} absolute w-screen h-screen bg-black transition-opacity top-0 left-0 text-white flex flex-col gap-4 items-center justify-center`}>
