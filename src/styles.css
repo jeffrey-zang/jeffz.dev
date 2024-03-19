@@ -7,6 +7,8 @@
 body {
     margin: 0;
     font-family: "Playfair Display", serif;
+    background-color: black;
+    color: white;
 }
 
 button {
@@ -24,7 +26,11 @@ button:hover {
 
 .gradient {
     font-weight: bold;
-    background: -webkit-linear-gradient(45deg, rgba(230,164,64,1) 0%, rgba(148,18,187,1) 100%);
+    background: -webkit-linear-gradient(
+        45deg,
+        rgba(230, 164, 64, 1) 0%,
+        rgba(148, 18, 187, 1) 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
