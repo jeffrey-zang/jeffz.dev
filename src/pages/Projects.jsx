@@ -2,6 +2,8 @@ import projects from "../data/projects.data";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
+  console.log(projects);
+
   return (
     <div className="p-16">
       <div className="mb-8">

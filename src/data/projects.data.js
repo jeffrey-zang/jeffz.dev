@@ -1,4 +1,5 @@
-export const projects2024 = [
+const projectsData = [
+  "2024",
   {
     name: "jeffz.dev",
     href: "https://jeffz.dev",
@@ -25,9 +26,7 @@ export const projects2024 = [
     href: "https://www.solcoa.tech/",
     about: "website for Solcoa Technologies",
   },
-];
-
-export const projects2023 = [
+  "2023",
   {
     name: "hoomanrezanezhad.com",
     href: "https://www.hoomanrezanezhad.com/",
@@ -109,9 +108,7 @@ export const projects2023 = [
     href: "https://github.com/jeffrey-zang/trivia-scoreboard",
     about: "scoreboard site for Laurel Heights Trivia Club",
   },
-];
-
-export const projects2022 = [
+  "2022",
   {
     name: "Sands of Typing",
     href: "https://github.com/jeffrey-zang/sands-of-typing",
@@ -164,9 +161,7 @@ export const projects2022 = [
     href: "https://github.com/Yourself1011/meleti",
     about: "discord bot to assist with studying and increase productivity",
   },
-];
-
-export const projects2021 = [
+  "2021",
   {
     name: "Farmout Bot",
     href: "https://github.com/Yourself1011/farmoutbot",
@@ -179,11 +174,21 @@ export const projects2021 = [
   },
 ];
 
-const projects = [
-  ["2024", projects2024],
-  ["2023", projects2023],
-  ["2022", projects2022],
-  ["2021", projects2021],
-];
+let projects = [];
+
+function parseProjects() {
+  let currentYear = -1;
+
+  for (let project in projectsData) {
+    if (typeof projectsData[project] == "string") {
+      projects.push([projectsData[project], []]);
+      currentYear += 1;
+    } else {
+      projects[currentYear][1].push(projectsData[project]);
+    }
+  }
+}
+
+parseProjects();
 
 export default projects;
