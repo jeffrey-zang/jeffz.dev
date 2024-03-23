@@ -2,10 +2,8 @@ import projects from "../data/projects.data";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
-  console.log(projects);
-
   return (
-    <div className="p-16">
+    <div className="p-8 md:p-16">
       <div className="mb-8">
         <h1 className="text-4xl font-bold">Projects</h1>
         <Link to="/" className="underline">

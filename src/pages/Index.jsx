@@ -9,7 +9,7 @@ const Index = () => {
 
   return (
     <div className="bg-black">
-      <div className="mx-auto flex flex-col bg-neutral-950 text-white md:flex-row">
+      <div className="mx-auto flex flex-col-reverse md:flex-row">
         <img
           src={me}
           alt="me"
