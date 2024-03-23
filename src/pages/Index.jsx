@@ -13,9 +13,9 @@ const Index = () => {
         <img
           src={me}
           alt="me"
-          className="h-screen w-full object-cover opacity-80 transition-all hover:opacity-100 hover:grayscale-0 md:w-1/2 md:grayscale"
+          className="h-screen w-full object-cover md:opacity-80 transition-all hover:opacity-100 hover:grayscale-0 md:w-1/2 md:grayscale"
         />
-        <div className="flex w-full max-w-[40rem] flex-col justify-center p-8 opacity-80 transition-all hover:opacity-100 hover:grayscale-0 md:w-1/2 md:grayscale">
+        <div className="flex w-full max-w-[40rem] flex-col justify-center p-8 md:opacity-80 transition-all hover:opacity-100 hover:grayscale-0 md:w-1/2 md:grayscale">
           <h1 className="text-4xl font-bold">
             This is <span className="text-red-400">Jeffrey</span>.
           </h1>
