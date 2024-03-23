@@ -4,10 +4,6 @@ const links = [
     href: "https://jeffz.dev",
   },
   {
-    name: "Resume",
-    href: "https://go.jeffz.dev/resume",
-  },
-  {
     name: "LinkedIn",
     href: "https://go.jeffz.dev/in",
   },

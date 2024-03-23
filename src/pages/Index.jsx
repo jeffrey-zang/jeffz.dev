@@ -81,7 +81,7 @@ const Index = () => {
             <div className="mt-4 flex gap-4">
               <button
                 onClick={() => {
-                  window.open("https://go.jeffz.dev/resume");
+                  navigate("/resume");
                 }}
               >
                 Resume
