@@ -15,26 +15,11 @@ const resume = [
       "Leading team to organize large-scale youth-led events and building partnerships.",
   },
   {
-    start: "Sep 2023",
+    start: "Jan 2023",
     end: "Present",
-    title: "Co-Chair",
+    title: "Co-Chair (prev. Operations)",
     company: "Hack the 6ix",
     description: "Coordinating Toronto's largest hackathon.",
-  },
-  {
-    start: "May 2023",
-    end: "Sep 2023",
-    title: "Director of Operations",
-    company: "Hack the 6ix",
-    description: "Organized Toronto's largest summer hackathon and led a team.",
-  },
-  {
-    start: "Jan 2023",
-    end: "May 2023",
-    title: "Operations Executive",
-    company: "Hack the 6ix",
-    description:
-      "Secured venues and coordinated merchandise for hackathon events.",
   },
   {
     start: "Jun 2023",
@@ -53,18 +38,10 @@ const resume = [
   },
   {
     start: "Sep 2023",
-    end: "Sep 2023",
-    title: "Founder",
+    end: "Sep 2022",
+    title: "Founder, Lead Organizer",
     company: "RythmHacks",
     description: "Founded and organized a high school hackathon.",
-  },
-  {
-    start: "Sep 2022",
-    end: "Sep 2023",
-    title: "Lead Organizer",
-    company: "RythmHacks",
-    description:
-      "Led organization of a high school hackathon partnered with MLH.",
   },
   {
     start: "Dec 2022",

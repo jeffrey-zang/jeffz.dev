@@ -13,11 +13,16 @@ const Resume = () => {
 
       {resumedata.map((exp, i) => {
         return (
-          <div key={`resume-${i}`} className="flex">
-            <div className="w-[15%]">
+          <div key={`resume-${i}`} className="flex mb-4">
+            <div className="min-w-[10rem]">
               {exp.start} - {exp.end}
             </div>
-            <div>{exp.title}</div>
+            <div>
+              <strong>{exp.title}</strong>, {exp.company}
+              <p>
+                {exp.description}
+              </p>
+            </div>
           </div>
         );
       })}
