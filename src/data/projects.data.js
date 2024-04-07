@@ -1,6 +1,11 @@
 const projectsData = [
   "2024",
   {
+    name: "Coral Heights Secondary School",
+    href: "https://github.com/jeffrey-zang/ICS4UI/tree/main/03/CoralHeightsSecondarySchool",
+    about: "Boids algorithm but with fish (and sharks)",
+  },
+  {
     name: "jeffz.dev",
     href: "https://jeffz.dev",
     about: "this website",
