@@ -113,6 +113,11 @@ const projectsData = [
     href: "https://github.com/jeffrey-zang/trivia-scoreboard",
     about: "scoreboard site for Laurel Heights Trivia Club",
   },
+  {
+    name: "Struggling Shoppers",
+    href: "https://github.com/jeffrey-zang/Struggling-Shoppers",
+    about: "ICS3UI final project",
+  },
   "2022",
   {
     name: "Sands of Typing",
