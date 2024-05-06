@@ -1,6 +1,11 @@
 const projectsData = [
   "2024",
   {
+    name: "Productivitazer ⚡️",
+    href: "https://devpost.com/software/lostazer",
+    about: "Forcing you to break your bad habits"
+  },
+  {
     name: "Coral Heights Secondary School",
     href: "https://github.com/jeffrey-zang/ICS4UI/tree/main/03/CoralHeightsSecondarySchool",
     about: "Boids algorithm but with fish (and sharks)",
