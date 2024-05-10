@@ -1,6 +1,11 @@
 const projectsData = [
   "2024",
   {
+    name: "Jame Li Club",
+    href: "https://www.jameli.club/",
+    about: "website for Jame Li Club",
+  },
+  {
     name: "Productivitazer ⚡️",
     href: "https://devpost.com/software/lostazer",
     about: "Forcing you to break your bad habits"
