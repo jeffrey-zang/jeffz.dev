@@ -32,6 +32,11 @@ const projectsData = [
     about: "website for Eclipse2024, the world's largest youth-led event",
   },
   {
+    name: "demo.pitchplat.app",
+    href: "https://demo.pitchplat.app/",
+    about: "demo for Plat, my Flowboat startup",
+  },
+  {
     name: "pitchplat.app",
     href: "https://pitchplat.app/",
     about: "website for Plat, my Flowboat startup",
