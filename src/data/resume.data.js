@@ -1,7 +1,7 @@
 const resume = [
   {
     start: "Jan 2024",
-    end: "Present",
+    end: "May 2024",
     title: "Software Developer",
     company: "Feroot Security",
     description: "Developing software for security solutions.",
@@ -37,8 +37,8 @@ const resume = [
       "Developed a web app connecting coaches and athletes, implementing frontend best practices.",
   },
   {
-    start: "Sep 2023",
-    end: "Sep 2022",
+    start: "Sep 2022",
+    end: "Sep 2023",
     title: "Founder, Lead Organizer",
     company: "RythmHacks",
     description: "Founded and organized a high school hackathon.",
