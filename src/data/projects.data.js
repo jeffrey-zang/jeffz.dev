@@ -1,6 +1,16 @@
 const projectsData = [
   "2024",
   {
+    name: "Ignite Academia",
+    href: "https://www.igniteacademia.ca/",
+    about: "website for Ignite Academia tutoring"
+  },
+  {
+    name: "2024.hackthe6ix.com",
+    href: "https://2024.hackthe6ix.com/",
+    about: "landing page for Hack the 6ix 2024",
+  },
+  {
     name: "Jame Li Club",
     href: "https://www.jameli.club/",
     about: "website for Jame Li Club",
@@ -89,8 +99,8 @@ const projectsData = [
     about: "landing page for TEDxColumbia Lake Youth",
   },
   {
-    name: "hackthe6ix.com",
-    href: "https://hackthe6ix.com/",
+    name: "2023.hackthe6ix.com",
+    href: "https://2023.hackthe6ix.com/",
     about: "landing page for Hack the 6ix 2023",
   },
   {

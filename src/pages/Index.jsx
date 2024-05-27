@@ -44,7 +44,7 @@ const Index = () => {
                 href="https://top.mlh.io/2023/profiles/jeffrey-zang"
                 className="underline"
               >
-                thirteen hackathons
+                fourteen hackathons
               </a>
             </strong>
             , working in teams such as operations, sponsorship, and development.
@@ -120,6 +120,7 @@ const Index = () => {
             </a>
           );
         })}
+        <button className="border-none p-0 !text-underline hover:bg-transparent hover:text-white">Email</button>
         <button onClick={() => setOpen(false)}>Okay</button>
       </div>
     </div>

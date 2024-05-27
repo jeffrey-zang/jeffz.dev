@@ -16,13 +16,9 @@ const links = [
     href: "https://devpost.com/jeffrey-zang",
   },
   {
-    name: "Calendly",
-    href: "https://calendly.com/jeffreyzang",
-  },
-  {
-    name: "Email",
-    href: "mailto:hi@jeffz.dev",
-  },
+    name: "Book a meeting",
+    href: "https://go.jeffz.dev/cal",
+  }
 ];
 
 export default links;
