@@ -1,6 +1,11 @@
 const projectsData = [
   "2024",
   {
+    name: "Cooked meter",
+    href: "https://cooked-meter.vercel.app/",
+    about: "website that tells you how cooked you are"
+  },
+  {
     name: "Ignite Academia",
     href: "https://www.igniteacademia.ca/",
     about: "website for Ignite Academia tutoring"
