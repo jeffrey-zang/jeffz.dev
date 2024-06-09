@@ -1,6 +1,11 @@
 const projectsData = [
   "2024",
   {
+    name: "Fraction Simplifier",
+    href: "https://github.com/jeffrey-zang/Fraction-Simplifier",
+    about: "your fractions, simplified.",
+  },
+  {
     name: "Cooked meter",
     href: "https://cooked-meter.vercel.app/",
     about: "website that tells you how cooked you are"
