@@ -33,3 +33,8 @@ button:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+}

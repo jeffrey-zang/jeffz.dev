@@ -25,7 +25,7 @@ const Index = () => {
               href="https://go.jeffz.dev/github"
               target="_blank"
               rel="noreferrer"
-              className="text-green-400 underline"
+              className="text-green-400"
             >
               programmer
             </a>
@@ -42,7 +42,6 @@ const Index = () => {
                 target="_blank"
                 rel="noreferrer"
                 href="https://top.mlh.io/2023/profiles/jeffrey-zang"
-                className="underline"
               >
                 fourteen hackathons
               </a>
@@ -50,7 +49,7 @@ const Index = () => {
             , working in teams such as operations, sponsorship, and development.
             He’s Co-Chair of{" "}
             <a
-              className="text-[#3CCCC6] underline"
+              className="text-[#3CCCC6]"
               href="https://hackthe6ix.com/"
               target="_blank"
               rel="noreferrer"
@@ -63,7 +62,7 @@ const Index = () => {
             <br />
             He’s currently working with a fifty-person global team to organize{" "}
             <a
-              className="text-[#8F70EF] underline"
+              className="text-[#8F70EF]"
               href="https://eclipseexpos.org"
               target="_blank"
               rel="noreferrer"
@@ -107,14 +106,13 @@ const Index = () => {
         className={`${open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"} absolute left-0 top-0 flex h-screen w-screen flex-col items-center justify-center gap-4 bg-black text-white transition-opacity`}
       >
         <p className="text-2xl font-bold">More links</p>
-        {links.map((link, index) => {
+        {links.map((link, i) => {
           return (
             <a
               href={link.href}
               target="_blank"
               rel="noreferrer"
-              key={`link-${index}`}
-              className="underline"
+              key={`link-${i}`}
             >
               {link.name}
             </a>

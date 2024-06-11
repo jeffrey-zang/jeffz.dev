@@ -6,7 +6,7 @@ const Resume = () => {
     <div className="p-8 md:p-16">
       <div className="mb-8">
         <h1 className="text-4xl font-bold">Resume</h1>
-        <Link to="/" className="underline">
+        <Link to="/">
           Back
         </Link>
       </div>
