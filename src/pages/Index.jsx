@@ -30,8 +30,7 @@ const Index = () => {
               programmer
             </a>
             , event organizer, and advocate for youth initiatives. Having
-            completed <strong>two tech internships</strong> and currently on his
-            third, Jeffrey focuses on front-end development with React, JS/TS,
+            completed <strong>three tech internships</strong> and entering his fourth, Jeffrey focuses on front-end development with React, JS/TS,
             and Tailwind. He’s worked with dozens of organizations to build{" "}
             <strong className="gradient">software that wows</strong>.
             <br />
