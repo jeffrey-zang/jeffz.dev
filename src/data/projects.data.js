@@ -1,6 +1,11 @@
 const projectsData = [
   "2024",
   {
+    name: "Flowboat Forms",
+    href: "https://forms.flowboat.ca/",
+    about: "dynamic forms creator for Flowboat",
+  },
+  {
     name: "Fraction Simplifier",
     href: "https://github.com/jeffrey-zang/Fraction-Simplifier",
     about: "your fractions, simplified.",
@@ -8,12 +13,12 @@ const projectsData = [
   {
     name: "Cooked meter",
     href: "https://cooked-meter.vercel.app/",
-    about: "website that tells you how cooked you are"
+    about: "website that tells you how cooked you are",
   },
   {
     name: "Ignite Academia",
     href: "https://www.igniteacademia.ca/",
-    about: "website for Ignite Academia tutoring"
+    about: "website for Ignite Academia tutoring",
   },
   {
     name: "2024.hackthe6ix.com",
@@ -28,7 +33,7 @@ const projectsData = [
   {
     name: "Productivitazer ⚡️",
     href: "https://devpost.com/software/lostazer",
-    about: "Forcing you to break your bad habits"
+    about: "Forcing you to break your bad habits",
   },
   {
     name: "Coral Heights Secondary School",
